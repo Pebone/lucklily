@@ -7,7 +7,6 @@
 * {
   margin: 0;
   padding: 0;
-  font: inherit;
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -23,8 +22,36 @@ a {
   color: inherit;
 }
 
+.container{
+  max-width: 80rem;
+  margin-inline: auto;
+  padding: 6.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
 :root{
-    --roxo: #9065C0;
-    --rosa: #FEC9D2;
-    
+  --roxo: #9065C0;
+  --rosa: #FEC9D2;
+  --rosa-escuro: #F36085;
+  --branco: #FFFFFF;
+  
+  --ff-1: "Poppins", system-ui, sans-serif
+  --ff-2: "Pacifico", system-ui, sans-serif
+
+  --fs-14: 0.875rem;
+  --fs-16: 1rem;
+  --fs-20: 1.25rem;
+  --fs-24: 1.5rem;
+  --fs-32: 2rem;
+  --fs-40: 2.5rem;
+}
+
+body,
+input,
+textarea,
+button {
+  font-size: var(--fs-16);
+  font-family: var(--ff-1);
 }
