@@ -25,7 +25,7 @@ a {
 .container{
   max-width: 80rem;
   margin-inline: auto;
-  padding: 6.25rem;
+  padding: 2rem 6.25rem;
   display: flex;
   flex-direction: column;
   gap: 1rem;
@@ -35,9 +35,10 @@ a {
   --roxo: #9065C0;
   --rosa: #FEC9D2;
   --rosa-escuro: #F36085;
+  --rosa-hover: #ff93ae;
   --branco: #FFFFFF;
   
-  --ff-1: "Poppins", system-ui, sans-serif
+  --ff-1: "Poppins"
   --ff-2: "Pacifico", system-ui, sans-serif
 
   --fs-14: 0.875rem;
@@ -53,5 +54,5 @@ input,
 textarea,
 button {
   font-size: var(--fs-16);
-  font-family: var(--ff-1);
+  font-family: "Poppins", system-ui, sans-serif;
 }
