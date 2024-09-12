@@ -1,11 +1,15 @@
 import Header from "./pages/Header";
+import Home from "./pages/Home";
 
 export default function App() {
   return (
     <>
-      <section className="container">
-        <Header />
-      </section>
+      <div className="background_marmore">
+        <section className="container">
+          <Header />
+          <Home />
+        </section>
+      </div>
     </>
   );
 }

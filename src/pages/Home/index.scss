@@ -1,0 +1,51 @@
+.home_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  height: fit-content;
+}
+
+.intro_home {
+  color: var(--branco);
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+  text-shadow: 0px 4px 4px #00000075;
+
+  h1 {
+    font-size: var(--fs-32);
+  }
+
+  h2 {
+    font-size: var(--fs-16);
+  }
+}
+
+.intro_home_button {
+  width: 257px;
+  height: auto;
+  padding: 1.5rem;
+  border-radius: 20px;
+  font-size: var(--fs-16);
+  background-color: var(--rosa-escuro);
+  color: var(--branco);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  border: none;
+  outline: 0;
+
+  box-shadow: 1px 1px 5px #00000025;
+}
+
+.intro_home_image {
+  img {
+    width: 560px;
+    height: auto;
+    border-radius: 50px 200px 100px 50px;
+  }
+}

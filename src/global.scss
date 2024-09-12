@@ -31,6 +31,20 @@ a {
   gap: 1rem;
 }
 
+.background_marmore{
+  background-image: url("./assets/images/papel_parede_marmore.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.background_cookies{
+  background-image: url("./assets/images/papel_parede_marmore.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 :root{
   --roxo: #9065C0;
   --rosa: #FEC9D2;
@@ -38,8 +52,8 @@ a {
   --rosa-hover: #ff93ae;
   --branco: #FFFFFF;
   
-  --ff-1: "Poppins"
-  --ff-2: "Pacifico", system-ui, sans-serif
+  --ff-1: "Poppins";
+  --ff-2: "Pacifico", system-ui, sans-;
 
   --fs-14: 0.875rem;
   --fs-16: 1rem;
