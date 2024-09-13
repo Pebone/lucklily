@@ -1,4 +1,4 @@
-import "./index.scss"
+import "./index.scss";
 
 export default function Home() {
   return (
@@ -7,7 +7,7 @@ export default function Home() {
         <h1>Transmitindo a você uma experiência gastronômica única.</h1>
         <h2>Viva tudo em um momento!</h2>
         <button className="intro_home_button">
-          <img src="./src/assets/icons/cookie.svg"></img>
+          {/* <img src="./src/assets/icons/cookie.svg"></img> */}
           <span>Peça agora!</span>
         </button>
       </div>

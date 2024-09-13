@@ -32,14 +32,15 @@ a {
 }
 
 .background_marmore{
-  background-image: url("./assets/images/papel_parede_marmore.png");
+  background-image: url("./assets/images/wallpaper/papel_parede_marmore.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .background_cookies{
-  background-image: url("./assets/images/papel_parede_marmore.png");
+  background: var(--branco);
+  background-image: url("./assets/images/wallpaper/papel_parede_cookies.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

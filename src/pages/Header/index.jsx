@@ -6,7 +6,7 @@ export default function Header() {
       <div className="">
         <div className="header">
           <div className="menu">
-            <img className="logo" src="../src/assets/images/logo4.png" />
+            <img className="logo" src="../src/assets/images/logo.png" />
 
             <a href="#1">
               <div className="background_menu_item">Início</div>

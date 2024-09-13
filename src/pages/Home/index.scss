@@ -3,7 +3,8 @@
   justify-content: center;
   align-items: center;
   gap: 5rem;
-  height: fit-content;
+  height: auto;
+  // overflow: hidden;
 }
 
 .intro_home {
@@ -17,14 +18,17 @@
 
   h1 {
     font-size: var(--fs-32);
+    font-weight: bold;
   }
 
   h2 {
     font-size: var(--fs-16);
+    font-weight: bold;
   }
 }
 
 .intro_home_button {
+  font-weight: bold;
   width: 257px;
   height: auto;
   padding: 1.5rem;
@@ -39,13 +43,35 @@
   border: none;
   outline: 0;
 
-  box-shadow: 1px 1px 5px #00000025;
+  box-shadow: 2px 2px 10px #00000075;
+  cursor: pointer;
+  transition: all 0.1s;
+
+  &:hover {
+    background: var(--rosa-hover);
+  }
 }
 
 .intro_home_image {
+  // transform: translateX(1000px);
+  // animation: slide-in 1s ease;
+  // transition: all 2s;
+
   img {
-    width: 560px;
-    height: auto;
+    width: 650px;
+    height: 454px;
     border-radius: 50px 200px 100px 50px;
+    box-shadow: 2px 2px 10px #00000075;
   }
 }
+
+// @keyframes slide-in {
+//   0% {
+//     transform: translateX(1000px);
+//     opacity: 0;
+//   }
+//   100% {
+//     transform: translateX(0px);
+//     opacity: 1
+//   }
+// }

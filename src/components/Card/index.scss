@@ -1,0 +1,70 @@
+.card_container {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  border-radius: 20px;
+  background-color: var(--branco);
+
+  box-shadow: 2px 2px 10px #00000075;
+}
+
+.card_div_img {
+  img {
+    border-radius: 20px 20px 0 0;
+  }
+}
+
+.card_infos {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem 1rem;
+  gap: 1rem;
+}
+
+.card_div_name_ingredients {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card_div_cookieName {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--rosa-escuro);
+  padding: 10px;
+  height: 26px;
+  border-radius: 999px;
+  color: var(--branco);
+}
+
+.card_div_ingredients {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card_div_infos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.card_div_info {
+  color: var(--rosa-escuro);
+}
+
+.card_div_footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--rosa-escuro);
+  font-size: 24px;
+  font-weight: 700;
+
+  img {
+    width: 30px;
+    height: 30px;
+  }
+}
