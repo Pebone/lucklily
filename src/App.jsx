@@ -1,3 +1,4 @@
+import About from "./pages/About";
 import Gallery from "./pages/Gallery";
 import Header from "./pages/Header";
 import Home from "./pages/Home";
@@ -20,6 +21,11 @@ export default function App() {
       <div className="background_marmore">
         <section className="container">
           <Gallery></Gallery>
+        </section>
+      </div>
+      <div className="background_cookies">
+        <section className="container">
+          <About />
         </section>
       </div>
     </>

@@ -1,8 +1,10 @@
 export default function About() {
-    return (
-      <>
-        <h1>Hello World</h1>
-      </>
-    );
-  }
-  
+  return (
+    <section className="about_container">
+      <img src=""></img>
+      <div>
+        <span></span>
+      </div>
+    </section>
+  );
+}
