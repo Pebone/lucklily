@@ -64,6 +64,9 @@ export default function Products() {
             price="R$ 7,00"
           ></Card>
         </div>
+        <div className="products_button_menu">
+          <button className="button_menu">Acessar o cardápio completo!</button>
+        </div>
       </section>
     </>
   );

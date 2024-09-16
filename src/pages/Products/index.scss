@@ -3,7 +3,7 @@
   flex-direction: column;
   gap: 3rem;
   color: var(--rosa-escuro);
-//   overflow: hidden;
+  //   overflow: hidden;
 }
 
 .products_title {
@@ -30,4 +30,23 @@
   align-items: center;
   flex-wrap: wrap;
   gap: 2rem;
+}
+
+.products_button_menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button_menu {
+  background-color: var(--rosa-escuro);
+  border-radius: 20px;
+  color: var(--branco);
+  font-weight: bold;
+  width: fit-content;
+  padding: 0rem 1.5rem;
+  outline: 0;
+  border: 0;
+  font-size: 24px;
+  cursor: pointer;
 }
