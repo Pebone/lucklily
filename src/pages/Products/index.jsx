@@ -1,4 +1,5 @@
 import Card from "../../components/Card";
+import LuckLily from "../../assets/images/cookies/lucklily.png";
 import "./index.scss";
 
 export default function Products() {
@@ -11,7 +12,7 @@ export default function Products() {
         </div>
         <div className="products_best_sellers">
           <Card
-            cookieURL="./src/assets/images/cookies/lucklily.png"
+            cookieURL={LuckLily}
             cookieName="Luck Lily"
             ingredients={["milk", "wheat", "egg"]}
             type="cookie"
@@ -20,7 +21,7 @@ export default function Products() {
           ></Card>
 
           <Card
-            cookieURL="./src/assets/images/cookies/lucklily.png"
+            cookieURL={LuckLily}
             cookieName="Luck Lily"
             ingredients={["milk", "wheat", "egg"]}
             type="cookie"
@@ -29,7 +30,7 @@ export default function Products() {
           ></Card>
 
           <Card
-            cookieURL="./src/assets/images/cookies/lucklily.png"
+            cookieURL={LuckLily}
             cookieName="Luck Lily"
             ingredients={["milk", "wheat", "egg"]}
             type="cookie"
@@ -38,7 +39,7 @@ export default function Products() {
           ></Card>
 
           <Card
-            cookieURL="./src/assets/images/cookies/lucklily.png"
+            cookieURL={LuckLily}
             cookieName="Luck Lily"
             ingredients={["milk", "wheat", "egg"]}
             type="cookie"
@@ -47,7 +48,7 @@ export default function Products() {
           ></Card>
 
           <Card
-            cookieURL="./src/assets/images/cookies/lucklily.png"
+            cookieURL={LuckLily}
             cookieName="Luck Lily"
             ingredients={["milk", "wheat", "egg"]}
             type="cookie"
@@ -56,7 +57,7 @@ export default function Products() {
           ></Card>
 
           <Card
-            cookieURL="./src/assets/images/cookies/lucklily.png"
+            cookieURL={LuckLily}
             cookieName="Luck Lily"
             ingredients={["milk", "wheat", "egg"]}
             type="cookie"
