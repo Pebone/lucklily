@@ -24,7 +24,7 @@
   h2 {
     font-size: var(--fs-16);
     font-weight: bold;
-    animation: slideInFadeSubText 4s ease forwards; /* Animação de slide e fade */
+    animation: slideInFadeSubText 2s ease forwards; /* Animação de slide e fade */
   }
 }
 
@@ -43,6 +43,7 @@
   gap: 1rem;
   border: none;
   outline: 0;
+  animation: slideInFadeSubText 2s ease forwards; /* Animação de slide e fade */
 
   box-shadow: 2px 2px 10px #00000075;
   cursor: pointer;
