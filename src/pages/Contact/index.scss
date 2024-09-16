@@ -1,22 +1,25 @@
 .contact_container {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 3rem;
-  color: var(--rosa-escuro);
-  //   overflow: hidden;
 }
 
 .contact_title {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  line-height: 2.5rem;
+  background: var(--rosa-escuro);
+  width: fit-content;
+  color: var(--branco);
+  border-radius: 999px;
+  padding: 0 3rem;
 
   h1 {
     font-size: 40px;
     font-family: "Pacifico", system-ui, sans-serif;
     font-weight: 400;
+    line-height: 3rem;
   }
 }
 
@@ -29,6 +32,7 @@
   border-radius: 20px;
   color: white;
   padding: 0.5rem 0rem;
+  width: 100%;
 }
 
 .contact_item {

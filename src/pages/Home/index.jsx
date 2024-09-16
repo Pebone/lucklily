@@ -2,14 +2,19 @@ import "./index.scss";
 
 export default function Home() {
   return (
-    <section className="home_container">
+    <section id="home" className="home_container">
       <div className="intro_home">
         <h1>Transmitindo a você uma experiência gastronômica única.</h1>
         <h2>Viva tudo em um momento!</h2>
-        <button className="intro_home_button">
-          {/* <img src="./src/assets/icons/cookie.svg"></img> */}
+        <a
+          className="intro_home_button"
+          href="https://drive.google.com/file/d/1-3HicpDbg5NaUKUFZ7z6b6dt_Y4Qhyjm/view"
+          target="_blank"
+        >
+          {/* <img className="cookie_button" src="./src/assets/icons/cookie_button.svg"></img> */}
+          <div className="home_cookie"></div>
           <span>Peça agora!</span>
-        </button>
+        </a>
       </div>
       <div className="intro_home_image">
         <img src="./src/assets/images/home_image.png"></img>

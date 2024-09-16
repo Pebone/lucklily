@@ -4,7 +4,7 @@ import "./index.scss";
 
 export default function Contact() {
   return (
-    <section className="contact_container">
+    <section id="contact" className="contact_container">
       <div className="contact_title">
         <h1>Contato</h1>
       </div>

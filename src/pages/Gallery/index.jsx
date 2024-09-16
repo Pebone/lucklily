@@ -3,7 +3,7 @@ import "./index.scss";
 export default function Gallery() {
   return (
     <>
-      <section className="gallery_container">
+      <section id="gallery" className="gallery_container">
         <div className="gallery_title">
           <h1>Galeria</h1>
         </div>

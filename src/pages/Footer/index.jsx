@@ -2,27 +2,27 @@ import "./index.scss";
 
 export default function Footer() {
   return (
-    <section className="footer_container">
+    <section id="footer" className="footer_container">
       <div className="footer_infos">
         <img className="footer_logo" src="../src/assets/images/logo.png" />
         <div className="footer_menu">
-          <a href="#1">
+          <a href="#header">
             <div className="background_menu_item">Início</div>
           </a>
 
-          <a href="#2">
-            <div className="background_menu_item">Sobre</div>
-          </a>
-
-          <a href="#3">
+          <a href="#products">
             <div className="background_menu_item">Produtos</div>
           </a>
 
-          <a href="#4">
+          <a href="#gallery">
             <div className="background_menu_item">Galeria</div>
           </a>
 
-          <a href="#5">
+          <a href="#about">
+            <div className="background_menu_item">Sobre</div>
+          </a>
+
+          <a href="#contact">
             <div className="background_menu_item">Contato</div>
           </a>
         </div>
@@ -46,7 +46,10 @@ export default function Footer() {
       <div className="footer_signature">
         <p>
           Desenvolvido com 💜 por{" "}
-          <a href="https://www.linkedin.com/in/davipereiracardoso/" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/davipereiracardoso/"
+            target="_blank"
+          >
             Davi Pereira
           </a>
         </p>

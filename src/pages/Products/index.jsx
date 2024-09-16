@@ -4,7 +4,7 @@ import "./index.scss";
 export default function Products() {
   return (
     <>
-      <section className="products_container">
+      <section id="products" className="products_container">
         <div className="products_title">
           <h1>Produtos</h1>
           <h2>Mais vendidos</h2>
@@ -65,7 +65,13 @@ export default function Products() {
           ></Card>
         </div>
         <div className="products_button_menu">
-          <button className="button_menu">Acessar o cardápio completo!</button>
+          <a
+            className="button_menu"
+            href="https://drive.google.com/file/d/1-3HicpDbg5NaUKUFZ7z6b6dt_Y4Qhyjm/view"
+            target="_blank"
+          >
+            Acessar o cardápio completo!
+          </a>
         </div>
       </section>
     </>

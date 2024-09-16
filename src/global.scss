@@ -71,3 +71,7 @@ button {
   font-size: var(--fs-16);
   font-family: "Poppins", system-ui, sans-serif;
 }
+
+html{
+  scroll-behavior: smooth;
+}
