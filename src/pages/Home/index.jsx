@@ -1,3 +1,4 @@
+import HomeImage from "../../assets/images/home_image.png"
 import "./index.scss";
 
 export default function Home() {
@@ -17,7 +18,7 @@ export default function Home() {
         </a>
       </div>
       <div className="intro_home_image">
-        <img src="./src/assets/images/home_image.png"></img>
+        <img src={HomeImage}></img>
       </div>
     </section>
   );
