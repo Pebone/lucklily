@@ -17,6 +17,7 @@ export default function Card(props) {
             {ingredients.map((ingredient) => {
               return (
                 <img
+                  key={ingredient}
                   stroke="red"
                   className="card_ingredients_svg"
                   src={`./src/assets/icons/${ingredient}.svg`}
