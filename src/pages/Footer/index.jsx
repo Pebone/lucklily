@@ -30,7 +30,7 @@ export default function Footer() {
             <div className="background_menu_item">Contato</div>
           </a>
         </div>
-        <div className="socials">
+        <div className="footer_socials">
           <a
             href="https://www.instagram.com/lucklilydoces"
             className="background_socials"

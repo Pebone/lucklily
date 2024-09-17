@@ -5,6 +5,9 @@
   gap: 3rem;
   color: var(--rosa-escuro);
   //   overflow: hidden;
+  animation: image-appear linear forwards; /* Animação de 0.5s */
+  animation-timeline: view(); /* Ativa a animação ao entrar na viewport */
+  animation-range: 0px 200px; /* Define o intervalo de ativação no scroll */
 }
 
 .gallery_title {
@@ -33,7 +36,7 @@
   opacity: 0; /* Começa invisível */
   animation: image-appear linear forwards; /* Animação de 0.5s */
   animation-timeline: view(); /* Ativa a animação ao entrar na viewport */
-  animation-range: 0px 650px; /* Define o intervalo de ativação no scroll */
+  animation-range: 0px 500px; /* Define o intervalo de ativação no scroll */
 }
 
 .gallery_group_1 {
@@ -62,11 +65,11 @@
 }
 
 @keyframes image-appear {
-  from {
+  0% {
     opacity: 0;
-    transform: translateY(100%);
+    transform: translateY(40%);
   }
-  to {
+  100% {
     opacity: 1;
     transform: translateY(0);
   }

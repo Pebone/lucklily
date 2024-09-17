@@ -100,32 +100,32 @@
 @keyframes slideInFade {
   0% {
     opacity: 0;
-    transform: translateX(100%); /* Move a imagem da esquerda */
+    transform: translateX(100%);
   }
   100% {
     opacity: 1;
-    transform: translateX(0); /* Imagem na posição final */
+    transform: translateX(0);
   }
 }
 
 @keyframes slideInFadeText {
   0% {
     opacity: 0;
-    transform: translateY(20%); /* Move a imagem da esquerda */
+    transform: translateY(20%);
   }
   100% {
     opacity: 1;
-    transform: translateY(0); /* Imagem na posição final */
+    transform: translateY(0);
   }
 }
 
 @keyframes slideInFadeSubText {
   0% {
     opacity: 0;
-    transform: translateY(20%); /* Move a imagem da esquerda */
+    transform: translateY(20%);
   }
   100% {
     opacity: 1;
-    transform: translateY(0); /* Imagem na posição final */
+    transform: translateY(0);
   }
 }

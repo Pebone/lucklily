@@ -5,31 +5,31 @@ import "./index.scss";
 
 export default function Header() {
   return (
-    <section id="header" className="header">
-      <div className="menu">
-        <img className="logo" src={Logo} />
+    <section id="header" className="header_container">
+      <div className="header_menu">
+        <img className="header_logo" src={Logo} />
 
         <a href="#header">
-          <div className="background_menu_item">Início</div>
+          <div className="header_background_menu_item">Início</div>
         </a>
 
         <a href="#products">
-          <div className="background_menu_item">Produtos</div>
+          <div className="header_background_menu_item">Produtos</div>
         </a>
 
         <a href="#gallery">
-          <div className="background_menu_item">Galeria</div>
+          <div className="header_background_menu_item">Galeria</div>
         </a>
 
         <a href="#about">
-          <div className="background_menu_item">Sobre</div>
+          <div className="header_background_menu_item">Sobre</div>
         </a>
 
         <a href="#contact">
-          <div className="background_menu_item">Contato</div>
+          <div className="header_background_menu_item">Contato</div>
         </a>
       </div>
-      <div className="socials">
+      <div className="header_socials">
         <a
           href="https://www.instagram.com/lucklilydoces"
           className="background_socials"
@@ -39,7 +39,7 @@ export default function Header() {
         </a>
         <a
           href="https://api.whatsapp.com/send/?phone=%2B5585994015585&text&type=phone_number&app_absent=0"
-          className="background_socials"
+          className="header_background_socials"
           target="blank"
         >
           <img src={Whatsapp} />
