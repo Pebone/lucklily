@@ -1,3 +1,4 @@
+import AboutImage from "../../assets/images/about_img.png"
 import "./index.scss";
 
 export default function About() {
@@ -8,7 +9,7 @@ export default function About() {
       </div>
       <div className="about_main">
         <div className="about_img">
-          <img src="./src/assets/images/about_img.png" />
+          <img src={AboutImage} />
         </div>
         <div className="about_text">
           <p>

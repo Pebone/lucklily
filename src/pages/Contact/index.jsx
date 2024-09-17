@@ -1,5 +1,10 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import Logo from "../../assets/images/logo.png";
+import Instagram from "../../assets/icons/instagram.svg";
+import Whatsapp from "../../assets/icons/whatsapp.svg";
+import Phone from "../../assets/icons/phone.svg";
+import Mail from "../../assets/icons/mail.svg";
+import Clock from "../../assets/icons/clock.svg";
 import "./index.scss";
 
 export default function Contact() {
@@ -11,17 +16,17 @@ export default function Contact() {
 
       <div className="contact_info">
         <div className="contact_item">
-          <img src="./src/assets/icons/phone.svg" />
+          <img src={Phone} />
           <p>(85) 9 9401-5051</p>
         </div>
         <div className="contact_item">
-          <img src="./src/assets/icons/mail.svg" />
+          <img src={Mail} />
           <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSKkVJxgNwMbhzfwdHXQtFCWCSLNDCzLSbWNnQkpBqmhbvxQklwSphrmQdDHKgkqrMWVsZsx">
             lucklilydoces@gmail.com
           </a>
         </div>
         <div className="contact_item">
-          <img src="./src/assets/icons/clock.svg" />
+          <img src={Clock} />
           <div>
             <p>Segunda a sexta: 10h às 18h</p>
             <p>Sábado: 10h às 15h</p>

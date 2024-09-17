@@ -1,10 +1,14 @@
+import Logo from "../../assets/images/logo.png";
+import Instagram from "../../assets/icons/instagram.svg"
+import Whatsapp from "../../assets/icons/whatsapp.svg"
+
 import "./index.scss";
 
 export default function Footer() {
   return (
     <section id="footer" className="footer_container">
       <div className="footer_infos">
-        <img className="footer_logo" src="../src/assets/images/logo.png" />
+        <img className="footer_logo" src={Logo} />
         <div className="footer_menu">
           <a href="#header">
             <div className="background_menu_item">Início</div>
@@ -32,14 +36,14 @@ export default function Footer() {
             className="background_socials"
             target="blank"
           >
-            <img src="../src/assets/icons/instagram.svg" />
+            <img src={Instagram} />
           </a>
           <a
             href="https://api.whatsapp.com/send/?phone=%2B5585994015585&text&type=phone_number&app_absent=0"
             className="background_socials"
             target="blank"
           >
-            <img src="../src/assets/icons/whatsapp.svg" />
+            <img src={Whatsapp} />
           </a>
         </div>
       </div>
