@@ -65,6 +65,7 @@ a {
   --ff-1: "Poppins";
   --ff-2: "Pacifico", system-ui, sans-;
 
+  --fs-12: 0.75rem;
   --fs-14: 0.875rem;
   --fs-16: 1rem;
   --fs-20: 1.25rem;
@@ -84,4 +85,16 @@ button {
 
 html{
   scroll-behavior: smooth;
+}
+
+@media (width <= 24em) {
+
+  .container{
+    padding: 2rem 2rem;
+  }
+
+  .container_footer{
+    padding: 2rem 2rem;
+  }
+  
 }

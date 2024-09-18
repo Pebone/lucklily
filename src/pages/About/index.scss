@@ -6,7 +6,7 @@
   color: var(--rosa-escuro);
   animation: fadeIn_About 1s ease;
   animation-timeline: view();
-  animation-range: 0px 500px
+  animation-range: 0px 500px;
 }
 
 .about_title {
@@ -54,5 +54,19 @@
   100% {
     opacity: 1;
     transform: translateY(00%);
+  }
+}
+
+@media (width <= 24em) {
+  .about_container {
+    animation: none;
+  }
+
+  .about_main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
 }

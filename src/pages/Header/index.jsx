@@ -1,6 +1,7 @@
 import Logo from "../../assets/images/logo.png";
-import Instagram from "../../assets/icons/instagram.svg"
-import Whatsapp from "../../assets/icons/whatsapp.svg"
+import Instagram from "../../assets/icons/instagram.svg";
+import Whatsapp from "../../assets/icons/whatsapp.svg";
+import MenuBurguer from "../../assets/icons/burguer.svg";
 import "./index.scss";
 
 export default function Header() {
@@ -29,21 +30,26 @@ export default function Header() {
           <div className="header_background_menu_item">Contato</div>
         </a>
       </div>
-      <div className="header_socials">
-        <a
-          href="https://www.instagram.com/lucklilydoces"
-          className="header_background_socials"
-          target="blank"
-        >
-          <img src={Instagram} />
-        </a>
-        <a
-          href="https://api.whatsapp.com/send/?phone=%2B5585994015585&text&type=phone_number&app_absent=0"
-          className="header_background_socials"
-          target="blank"
-        >
-          <img src={Whatsapp} />
-        </a>
+      <div className="header_socials_menu">
+        <div className="header_menu_burguer">
+          <img src={MenuBurguer}></img>
+        </div>
+        <div className="header_socials_menu_items">
+          <a
+            href="https://www.instagram.com/lucklilydoces"
+            className="header_background_socials"
+            target="blank"
+          >
+            <img src={Instagram} />
+          </a>
+          <a
+            href="https://api.whatsapp.com/send/?phone=%2B5585994015585&text&type=phone_number&app_absent=0"
+            className="header_background_socials"
+            target="blank"
+          >
+            <img src={Whatsapp} />
+          </a>
+        </div>
       </div>
     </section>
   );
