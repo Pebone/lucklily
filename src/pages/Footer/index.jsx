@@ -57,9 +57,6 @@ export default function Footer() {
             Davi Pereira
           </a>
         </p>
-        {/* <p>Desenvolvido com&nbsp;</p>
-        <img src="./src/assets/icons/heart.svg" />
-        <p>&nbsp;por Davi Pereira</p> */}
       </div>
     </section>
   );

@@ -1,5 +1,8 @@
 import Card from "../../components/Card";
 import LuckLily from "../../assets/images/cookies/lucklily.png";
+import BananaCake from "../../assets/images/cakes/banana_cake.png";
+import CarrotCake from "../../assets/images/cakes/carrot_cake_3.png";
+import OvomaltineCake from "../../assets/images/cakes/ovomaltine_cake.png";
 import "./index.scss";
 
 export default function Products() {
@@ -22,7 +25,7 @@ export default function Products() {
 
           <Card
             cookieURL={LuckLily}
-            cookieName="Luck Lily"
+            cookieName="Avelã Nuclear"
             ingredients={["milk", "wheat", "egg"]}
             type="cookie"
             info="Massa especial da casa e gotas de chocolate!"
@@ -31,7 +34,7 @@ export default function Products() {
 
           <Card
             cookieURL={LuckLily}
-            cookieName="Luck Lily"
+            cookieName="Red Champion"
             ingredients={["milk", "wheat", "egg"]}
             type="cookie"
             info="Massa especial da casa e gotas de chocolate!"
@@ -39,28 +42,28 @@ export default function Products() {
           ></Card>
 
           <Card
-            cookieURL={LuckLily}
-            cookieName="Luck Lily"
+            cookieURL={CarrotCake}
+            cookieName="Bolo de Cenoura"
             ingredients={["milk", "wheat", "egg"]}
-            type="cookie"
+            type="cake"
             info="Massa especial da casa e gotas de chocolate!"
             price="R$ 7,00"
           ></Card>
 
           <Card
-            cookieURL={LuckLily}
-            cookieName="Luck Lily"
+            cookieURL={OvomaltineCake}
+            cookieName="Bolo de Ovomaltine"
             ingredients={["milk", "wheat", "egg"]}
-            type="cookie"
+            type="cake"
             info="Massa especial da casa e gotas de chocolate!"
             price="R$ 7,00"
           ></Card>
 
           <Card
-            cookieURL={LuckLily}
-            cookieName="Luck Lily"
+            cookieURL={BananaCake}
+            cookieName="Bolo de Banana"
             ingredients={["milk", "wheat", "egg"]}
-            type="cookie"
+            type="cake"
             info="Massa especial da casa e gotas de chocolate!"
             price="R$ 7,00"
           ></Card>

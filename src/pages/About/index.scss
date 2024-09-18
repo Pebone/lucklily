@@ -4,6 +4,9 @@
   align-items: center;
   gap: 3rem;
   color: var(--rosa-escuro);
+  animation: fadeIn_About 1s ease;
+  animation-timeline: view();
+  animation-range: 0px 500px
 }
 
 .about_title {
@@ -40,5 +43,16 @@
 .about_img {
   img {
     border-radius: 50px 20px 100px 150px;
+  }
+}
+
+@keyframes fadeIn_About {
+  0% {
+    opacity: 0;
+    transform: translateY(20%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(00%);
   }
 }

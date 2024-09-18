@@ -1,4 +1,4 @@
-import HomeImage from "../../assets/images/home_image.png"
+import HomeImage from "../../assets/images/home_image.png";
 import "./index.scss";
 
 export default function Home() {
@@ -9,7 +9,7 @@ export default function Home() {
         <h2>Viva tudo em um momento!</h2>
         <a
           className="intro_home_button"
-          href="https://drive.google.com/file/d/1-3HicpDbg5NaUKUFZ7z6b6dt_Y4Qhyjm/view"
+          href="https://api.whatsapp.com/send/?phone=%2B5585994015585&text&type=phone_number&app_absent=0"
           target="_blank"
         >
           {/* <img className="cookie_button" src="./src/assets/icons/cookie_button.svg"></img> */}

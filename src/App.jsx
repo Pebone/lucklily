@@ -33,6 +33,8 @@ export default function App() {
       <section className="background_marmore">
         <div className="container">
           <Contact />
+        </div>
+        <div className="container_footer">
           <Footer />
         </div>
       </section>
