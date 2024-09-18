@@ -87,7 +87,7 @@ html{
   scroll-behavior: smooth;
 }
 
-@media (width <= 48em) {
+@media (width < 48em) {
 
   .container{
     padding: 2rem 2rem;
