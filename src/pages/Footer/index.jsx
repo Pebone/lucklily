@@ -1,6 +1,6 @@
 import Logo from "../../assets/images/logo.png";
-import Instagram from "../../assets/icons/instagram.svg"
-import Whatsapp from "../../assets/icons/whatsapp.svg"
+import Instagram from "../../assets/icons/instagram.svg";
+import Whatsapp from "../../assets/icons/whatsapp.svg";
 
 import "./index.scss";
 
@@ -56,6 +56,17 @@ export default function Footer() {
           >
             Davi Pereira
           </a>
+        </p>
+        <p>
+          Todos os direitos reservados &copy; 2024. Ícones fornecidos por{" "}
+          <a href="https://fontawesome.com" target="_blank">
+            FontAwesome
+          </a>{" "}
+          e{" "}
+          <a href="https://lucide.dev" target="_blank">
+            Lucide-React
+          </a>
+          .
         </p>
       </div>
     </section>

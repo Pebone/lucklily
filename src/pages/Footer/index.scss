@@ -82,6 +82,7 @@
 
 .footer_signature {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   color: var(--rosa-escuro);
@@ -89,7 +90,7 @@
   font-size: 14px;
 
   p {
-    line-height: 0;
+    line-height: 1.5rem;
   }
 
   a {

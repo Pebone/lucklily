@@ -32,7 +32,7 @@ export default function Header() {
       <div className="header_socials">
         <a
           href="https://www.instagram.com/lucklilydoces"
-          className="background_socials"
+          className="header_background_socials"
           target="blank"
         >
           <img src={Instagram} />
