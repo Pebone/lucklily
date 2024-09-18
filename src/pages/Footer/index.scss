@@ -23,8 +23,8 @@
 .footer_logo {
   width: 130px;
   height: auto;
-  image-rendering: -webkit-optimize-contrast; /* For Webkit (Chrome & Safari) */
-  image-rendering: crisp-edges; /* For modern browsers */
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
   cursor: pointer;
   transition: all 1s;
 }

@@ -32,7 +32,7 @@
   gap: 2rem;
   animation: toRight ease-in-out;
   animation-timeline: view();
-  animation-range: 1000px 2000px;
+  animation-range: 1200px 1700px;
 }
 
 .products_button_menu {
@@ -41,7 +41,7 @@
   align-items: center;
   animation: toRight ease-in-out;
   animation-timeline: view();
-  animation-range: 700px 1200px;
+  animation-range: 500px 1000px;
 }
 
 .button_menu {
@@ -59,17 +59,6 @@
 
   &:hover {
     background: var(--rosa-hover);
-  }
-}
-
-@keyframes fadeIn_Products {
-  0% {
-    opacity: 0;
-    transform: translateX(100%);
-  }
-  100% {
-    opacity: 1;
-    transform: translateX(0%);
   }
 }
 
