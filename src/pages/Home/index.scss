@@ -131,9 +131,6 @@
 }
 
 @media (width < 48em) {
-  .home_container {
-  }
-
   .intro_home {
     color: var(--branco);
     width: 100%;
@@ -142,6 +139,7 @@
     justify-content: center;
     gap: 2rem;
     text-align: center;
+    align-items: center;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
 
     h1 {

@@ -81,3 +81,13 @@
     transform: translateX(-100%);
   }
 }
+
+@media (width < 48em) {
+  .gallery_container {
+    animation: none;
+  }
+
+  .gallery_groups {
+    animation: none;
+  }
+}
