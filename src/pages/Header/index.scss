@@ -105,6 +105,10 @@
   gap: 0.5rem;
 }
 
+.header_menu_burguer_dropdown {
+  display: none;
+}
+
 @keyframes fadeIn {
   0% {
     opacity: 0;
@@ -148,10 +152,81 @@
   .header_menu_burguer {
     display: block;
     line-height: 0;
+    // margin: 0 0 0.5rem 0;
 
     img {
       width: 30px;
       height: 30px;
     }
+  }
+
+  .header_menu_burguer_dropdown {
+    display: block;
+    position: relative;
+    background: var(--branco);
+  }
+
+  .header_menu_burguer_dropdown_container {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.8rem;
+    top: 5px;
+    padding: 0.5rem 2rem 0.5rem 1rem;
+    width: fit-content;
+    height: fit-content;
+    background: var(--rosa-escuro);
+    border-radius: 0px 10px 10px 0;
+
+    a{
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 0.5rem;
+
+      img{
+        width: 20px;
+        height: 20px;
+      }
+    }
+  }
+
+  // .header_menu {
+  //   display: flex;
+  //   justify-content: center;
+  //   align-items: flex-start;
+  //   gap: 3rem;
+  //   // background: var(--branco);
+
+  //   img {
+  //     animation: none;
+  //   }
+
+  //   a:nth-child(2) {
+  //     animation: none;
+  //   }
+  //   a:nth-child(3) {
+  //     animation: none;
+  //   }
+  //   a:nth-child(4) {
+  //     animation: none;
+  //   }
+  //   a:nth-child(5) {
+  //     animation: none;
+  //   }
+  //   a:nth-child(6) {
+  //     animation: none;
+  //   }
+  // }
+
+  .header_background_menu_item {
+    background: transparent;
+    width: fit-content;
+    padding: 0;
+  }
+
+  .header_background_menu_item:hover {
+    background: transparent;
   }
 }
