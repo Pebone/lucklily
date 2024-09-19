@@ -93,16 +93,41 @@
   }
 
   .gallery_group_1 {
+    gap: 2rem;
     img {
       width: 100%;
     }
-    gap: 2rem;
   }
 
   .gallery_group_2 {
+    gap: 2rem;
     img {
       width: 100%;
     }
+  }
+}
+
+@media (width <= 64em) {
+  .gallery_container {
+    animation: none;
+  }
+
+  .gallery_groups {
+    animation: none;
     gap: 2rem;
   }
+
+  // .gallery_group_1 {
+  //   img {
+  //     width: 100%;
+  //   }
+  //   gap: 2rem;
+  // }
+
+  // .gallery_group_2 {
+  //   img {
+  //     width: 100%;
+  //   }
+  //   gap: 2rem;
+  // }
 }

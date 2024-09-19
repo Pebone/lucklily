@@ -60,3 +60,23 @@
     gap: 0rem;
   }
 }
+
+@media (width <= 64em) {
+  .contact_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+    width: fit-content;
+  }
+
+  .contact_item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0rem;
+  }
+}

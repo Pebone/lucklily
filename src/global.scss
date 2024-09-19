@@ -99,3 +99,16 @@ html{
   }
   
 }
+
+@media (width <= 64em) {
+
+  .container{
+    padding: 2rem 2rem;
+    gap: 3rem;
+  }
+
+  .container_footer{
+    padding: 2rem 2rem;
+  }
+  
+}

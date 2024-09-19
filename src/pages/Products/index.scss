@@ -100,3 +100,22 @@
     text-align: center;
   }
 }
+
+@media (width <= 64em) {
+  .products_best_sellers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    animation: none;
+  }
+
+  .products_button_menu {
+    animation: none;
+  }
+
+  .button_menu {
+    font-size: var(--fs-16);
+    text-align: center;
+  }
+}

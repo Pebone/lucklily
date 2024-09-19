@@ -76,3 +76,23 @@
     }
   }
 }
+
+@media (width <= 64em) {
+  .about_container {
+    animation: none;
+  }
+
+  .about_main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .about_img {
+    img {
+      width: 300px;
+    }
+  }
+}

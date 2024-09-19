@@ -125,7 +125,7 @@
     gap: 2rem;
   }
 
-  .footer_logo{
+  .footer_logo {
     width: 200px;
   }
 
@@ -133,7 +133,33 @@
     display: none;
   }
 
-  .footer_signature{
+  .footer_signature {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+  }
+}
+
+@media (width <= 64em) {
+  .footer_infos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .footer_logo {
+    width: 200px;
+  }
+
+  .footer_menu {
+    display: none;
+  }
+
+  .footer_signature {
     display: flex;
     justify-content: center;
     align-items: center;
