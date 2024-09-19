@@ -68,3 +68,24 @@
     height: 30px;
   }
 }
+
+@media (width < 48em) {
+  .card_div_cookieName {
+    font-size: var(--fs-12);
+  }
+
+  .card_div_infos {
+    font-size: var(--fs-12);
+  }
+
+  .card_div_footer {
+    img {
+      width: 24px;
+      height: 24px;
+    }
+  }
+
+  .card_div_price {
+    font-size: var(--fs-16);
+  }
+}

@@ -131,6 +131,10 @@
 }
 
 @media (width < 48em) {
+
+  .home_container{
+    // margin-top: 3rem;
+  }
   .intro_home {
     color: var(--branco);
     width: 100%;

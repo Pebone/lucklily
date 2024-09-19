@@ -47,7 +47,7 @@ export default function Card(props) {
           <p className="card_div_info">{props.info}</p>
           <div className="card_div_footer">
             <img src={foodType[props.type]}></img>
-            <div>
+            <div className="card_div_price">
               <p>{props.price}</p>
             </div>
           </div>
