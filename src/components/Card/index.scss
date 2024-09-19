@@ -69,14 +69,23 @@
   }
 }
 
-@media (width < 48em){
-  .card_div_cookieName{
+@media (width < 48em) {
+  .card_div_cookieName {
     font-size: var(--fs-16);
   }
 }
 
-@media (width <= 20em){
-  .card_div_cookieName{
+@media (width <= 22em) {
+  .card_div_cookieName {
+    font-size: var(--fs-14);
+  }
+}
+
+@media (width <= 20em) {
+  .card_div_cookieName {
     font-size: var(--fs-12);
+  }
+  .card_div_info {
+    font-size: var(--fs-14);
   }
 }

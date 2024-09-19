@@ -89,6 +89,7 @@
 
   .gallery_groups {
     animation: none;
+    gap: 2rem;
   }
 
   .gallery_group_1 {
@@ -102,6 +103,6 @@
     img {
       width: 100%;
     }
-    gap: 1rem;
+    gap: 2rem;
   }
 }
