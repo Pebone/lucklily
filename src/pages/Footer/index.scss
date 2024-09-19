@@ -142,7 +142,7 @@
   }
 }
 
-@media (width <= 64em) {
+@media (width < 80em) {
   .footer_infos {
     display: flex;
     flex-direction: column;

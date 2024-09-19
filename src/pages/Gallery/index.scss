@@ -107,7 +107,7 @@
   }
 }
 
-@media (width <= 64em) {
+@media (width < 80em) {
   .gallery_container {
     animation: none;
   }
@@ -116,18 +116,40 @@
     animation: none;
     gap: 2rem;
   }
+}
 
-  // .gallery_group_1 {
-  //   img {
-  //     width: 100%;
-  //   }
-  //   gap: 2rem;
-  // }
+@media (80em <= width < 85em) {
+  .gallery_groups {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    animation: toLeft 1s ease-in-out; /* Animação de 0.5s */
+    animation-timeline: view(); /* Ativa a animação ao entrar na viewport */
+    animation-range: 1200px 1580px; /* Define o intervalo de ativação no scroll */
+  }
+}
 
-  // .gallery_group_2 {
-  //   img {
-  //     width: 100%;
-  //   }
-  //   gap: 2rem;
-  // }
+@media (85em <= width < 90em) {
+  .gallery_groups {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    animation: toLeft 1s ease-in-out; /* Animação de 0.5s */
+    animation-timeline: view(); /* Ativa a animação ao entrar na viewport */
+    animation-range: 1000px exit; /* Define o intervalo de ativação no scroll */
+  }
+}
+
+@media (width >= 90em) {
+  .gallery_groups {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    animation: toLeft 1s ease-in-out; /* Animação de 0.5s */
+    animation-timeline: view(); /* Ativa a animação ao entrar na viewport */
+    animation-range: 1400px exit; /* Define o intervalo de ativação no scroll */
+  }
 }

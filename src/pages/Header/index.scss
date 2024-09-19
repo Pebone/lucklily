@@ -231,7 +231,7 @@
   }
 }
 
-@media (width <= 64em) {
+@media (width < 80em) {
   .header_container {
     display: flex;
     justify-content: space-between;

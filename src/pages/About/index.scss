@@ -77,7 +77,7 @@
   }
 }
 
-@media (width <= 64em) {
+@media (width < 80em) {
   .about_container {
     animation: none;
   }
