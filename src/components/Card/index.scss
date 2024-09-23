@@ -11,6 +11,8 @@
 .card_div_img {
   img {
     border-radius: 20px 20px 0 0;
+    width: 300px;
+    height: 200px;
   }
 }
 
@@ -19,6 +21,7 @@
   flex-direction: column;
   padding: 0.5rem 1rem;
   gap: 1rem;
+  flex: 1;
 }
 
 .card_div_name_ingredients {
@@ -47,8 +50,9 @@
 .card_div_infos {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   gap: 2rem;
+  flex: 1;
 }
 
 .card_div_info {

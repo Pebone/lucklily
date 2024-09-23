@@ -23,7 +23,7 @@ export default function Card(props) {
   return (
     <section className="card_container">
       <div className="card_div_img">
-        <img src={props.cookieURL}></img>
+        <img className="card_img" src={props.cookieURL}></img>
       </div>
       <div className="card_infos">
         <div className="card_div_name_ingredients">

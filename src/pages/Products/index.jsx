@@ -1,5 +1,7 @@
 import Card from "../../components/Card";
 import LuckLily from "../../assets/images/cookies/lucklily.png";
+import Cafezin from "../../assets/images/cookies/cafezin2.png";
+import Avela from "../../assets/images/cookies/avela.png";
 import BananaCake from "../../assets/images/cakes/banana_cake.png";
 import CarrotCake from "../../assets/images/cakes/carrot_cake_3.png";
 import OvomaltineCake from "../../assets/images/cakes/ovomaltine_cake.png";
@@ -24,20 +26,21 @@ export default function Products() {
           ></Card>
 
           <Card
-            cookieURL={LuckLily}
+            cookieURL={Avela}
             cookieName="Avelã Nuclear"
             ingredients={["milk", "wheat", "egg"]}
             type="cookie"
-            info="Massa especial da casa e gotas de chocolate!"
+            info="Massa especial da casa e creme de avelã!"
             price="R$ 7,00"
           ></Card>
 
           <Card
-            cookieURL={LuckLily}
-            cookieName="Red Champion"
+            cookieURL={Cafezin}
+            cookieName="Cafézin"
             ingredients={["milk", "wheat", "egg"]}
             type="cookie"
-            info="Massa especial da casa e gotas de chocolate!"
+            info="Diferencial da casa. Cookie com massa feita de café para
+você provar e amar, escolha o recheio!"
             price="R$ 7,00"
           ></Card>
 
@@ -46,8 +49,9 @@ export default function Products() {
             cookieName="Bolo de Cenoura"
             ingredients={["milk", "wheat", "egg"]}
             type="cake"
-            info="Massa especial da casa e gotas de chocolate!"
-            price="R$ 7,00"
+            info="Bolo de cenoura dos deuses, feito com toda a
+malemolência da cozinha da Luck Lily. Isso daqui é divino!"
+            price="(M) R$ 27,50"
           ></Card>
 
           <Card
@@ -55,17 +59,20 @@ export default function Products() {
             cookieName="Bolo de Ovomaltine"
             ingredients={["milk", "wheat", "egg"]}
             type="cake"
-            info="Massa especial da casa e gotas de chocolate!"
-            price="R$ 7,00"
+            info="Cremosidade e massa fofinha de um jeito que você nunca pensou
+que iria precisar provar. Esse bolo é um papoco pro paladar!"
+            price="(M) R$ 30,00"
           ></Card>
 
           <Card
             cookieURL={BananaCake}
             cookieName="Bolo de Banana"
-            ingredients={["milk", "wheat", "egg"]}
+            ingredients={["wheat", "egg"]}
             type="cake"
-            info="Massa especial da casa e gotas de chocolate!"
-            price="R$ 7,00"
+            info="Bolo de banana (SEM LACTOSE) com canela feito com a receita secreta
+da família. Uma delícia, você tem que provar! ATENÇÃO: CONTÉM
+CANELA!"
+            price="(M) R$ 22,50"
           ></Card>
         </div>
         <div className="products_button_menu">

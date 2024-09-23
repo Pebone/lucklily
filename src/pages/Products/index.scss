@@ -27,7 +27,7 @@
 .products_best_sellers {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: stretch;
   flex-wrap: wrap;
   gap: 2rem;
   animation: toRight ease-in-out;
@@ -86,7 +86,7 @@
   .products_best_sellers {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
     gap: 2rem;
     animation: none;
   }
@@ -105,7 +105,7 @@
   .products_best_sellers {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
     gap: 2rem;
     animation: none;
   }
@@ -124,7 +124,7 @@
   .products_best_sellers {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
     gap: 2rem;
     animation: toRight ease-in-out;
     animation-timeline: view();
@@ -145,7 +145,7 @@
   .products_best_sellers {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
     gap: 2rem;
     animation: toRight ease-in-out;
     animation-timeline: view();
@@ -166,7 +166,7 @@
   .products_best_sellers {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
     gap: 2rem;
     animation: toRight ease-in-out;
     animation-timeline: view();
