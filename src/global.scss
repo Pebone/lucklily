@@ -22,7 +22,7 @@ a {
   color: inherit;
 }
 
-.container{
+.container {
   max-width: 80rem;
   margin-inline: auto;
   padding: 4rem 6.25rem;
@@ -31,7 +31,7 @@ a {
   gap: 1rem;
 }
 
-.container_footer{
+.container_footer {
   max-width: 80rem;
   margin-inline: auto;
   padding: 0rem 6.25rem 2rem;
@@ -40,14 +40,14 @@ a {
   gap: 1rem;
 }
 
-.background_marmore{
+.background_marmore {
   background-image: url("./assets/images/wallpaper/papel_parede_marmore.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.background_cookies{
+.background_cookies {
   background: var(--branco);
   background-image: url("./assets/images/wallpaper/papel_parede_cookies.png");
   background-position: center;
@@ -55,13 +55,13 @@ a {
   background-size: cover;
 }
 
-:root{
-  --roxo: #9065C0;
-  --rosa: #FEC9D2;
-  --rosa-escuro: #F36085;
+:root {
+  --roxo: #9065c0;
+  --rosa: #fec9d2;
+  --rosa-escuro: #f36085;
   --rosa-hover: #ff93ae;
-  --branco: #FFFFFF;
-  
+  --branco: #ffffff;
+
   --ff-1: "Poppins";
   --ff-2: "Pacifico", system-ui, sans-;
 
@@ -83,32 +83,38 @@ button {
   overflow-x: hidden;
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
-@media (width < 48em) {
+.app_fixed_menu {
+  display: none;
+}
 
-  .container{
+@media (width < 48em) {
+  .container {
     padding: 2rem 2rem;
     gap: 3rem;
   }
 
-  .container_footer{
+  .container_footer {
     padding: 2rem 2rem;
   }
-  
 }
 
 @media (width < 80em) {
-
-  .container{
+  .container {
     padding: 2rem 2rem;
     gap: 3rem;
   }
 
-  .container_footer{
+  .container_footer {
     padding: 2rem 2rem;
   }
-  
+}
+
+@media (width >= 48em) {
+  .app_fixed_menu {
+    display: block;
+  }
 }

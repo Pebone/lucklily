@@ -1,3 +1,4 @@
+import { FixedMenu } from "./components/FixedMenu";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Footer from "./pages/Footer";
@@ -9,6 +10,9 @@ import Products from "./pages/Products";
 export default function App() {
   return (
     <>
+      <section className="app_fixed_menu">
+        <FixedMenu />
+      </section>
       <section className="background_marmore">
         <div className="container">
           <Header />
