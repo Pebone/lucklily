@@ -6,19 +6,31 @@ import "./index.scss";
 export function FixedMenu() {
   return (
     <section className="fixed_menu_container">
-      <a className="fixed_menu">
+      <a
+        href="https://drive.google.com/file/d/1-3HicpDbg5NaUKUFZ7z6b6dt_Y4Qhyjm/view"
+        target="blank"
+        className="fixed_menu"
+      >
         <div>
           <p>Cardápio</p>
         </div>
         <img src={Menu}></img>
       </a>
-      <a className="fixed_menu">
+      <a
+        href="https://www.instagram.com/lucklilydoces"
+        target="blank"
+        className="fixed_menu"
+      >
         <div>
           <p>Instagram</p>
         </div>
         <img src={Instagram}></img>
       </a>
-      <a className="fixed_menu">
+      <a
+        href="https://api.whatsapp.com/send/?phone=%2B5585994015585&text&type=phone_number&app_absent=0"
+        target="blank"
+        className="fixed_menu"
+      >
         <div>
           <p>Whatsapp</p>
         </div>

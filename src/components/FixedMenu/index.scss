@@ -11,6 +11,7 @@
   box-shadow: 2px 2px 10px #00000075;
   overflow: hidden;
   transition: width 0.5s ease;
+  animation: slideUp 2s ease;
 
   &:hover {
     width: 180px;
@@ -46,4 +47,15 @@
 .fixed_menu_container:hover .fixed_menu div {
   opacity: 1;
   width: fit-content;
+}
+
+@keyframes slideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(800px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
 }

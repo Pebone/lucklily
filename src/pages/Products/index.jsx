@@ -79,7 +79,7 @@ CANELA!"
           <a
             className="button_menu"
             href="https://drive.google.com/file/d/1-3HicpDbg5NaUKUFZ7z6b6dt_Y4Qhyjm/view"
-            target="_blank"
+            target="blank"
           >
             Acessar o cardápio completo!
           </a>
