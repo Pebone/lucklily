@@ -1,4 +1,4 @@
-import HomeImage from "../../assets/images/cakes/carrot_cake.png";
+import HomeImage from "../../assets/images/Lily.png";
 import "./index.scss";
 
 export default function Home() {
@@ -16,9 +16,8 @@ export default function Home() {
           <span>Peça agora!</span>
         </a>
       </div>
-      <div className="intro_home_image">
-        <img src={HomeImage} alt="Bolo de cenoura com chocolate."></img>
-      </div>
+
+      <img className="intro_home_image" src={HomeImage} alt="Bolo de cenoura com chocolate."></img>
     </section>
   );
 }

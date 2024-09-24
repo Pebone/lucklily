@@ -14,7 +14,7 @@ export default function App() {
         <FixedMenu />
       </section>
       <section className="background_marmore">
-        <div className="container">
+        <div className="container_home">
           <Header />
           <Home />
         </div>

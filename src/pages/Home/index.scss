@@ -1,6 +1,6 @@
 .home_container {
   display: flex;
-  justify-content: center;
+  // justify-content: center;
   align-items: center;
   gap: 5rem;
   height: auto;
@@ -72,14 +72,16 @@
 }
 
 .intro_home_image {
-  img {
-    width: 650px;
-    height: 454px;
-    border-radius: 50px 50px 50px 50px;
-    box-shadow: 2px 2px 10px #00000075;
-    opacity: 0;
-    animation: slideInFade 2s ease forwards;
-  }
+  width: 550px;
+  // height: 550px;
+  border-radius: 50px 50px 50px 50px;
+  // box-shadow: 2px 2px 10px #00000075;
+  object-fit: contain;
+  opacity: 0;
+  animation: slideInFade 2s ease forwards;
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 
 @keyframes background-swap {
@@ -131,7 +133,6 @@
 }
 
 @media (width < 48em) {
-
   .intro_home {
     color: var(--branco);
     width: 100%;
