@@ -1,4 +1,4 @@
-import HomeImage from "../../assets/images/Lily.png";
+import HomeImage from "../../assets/images/Lily_left.png";
 import "./index.scss";
 
 export default function Home() {
