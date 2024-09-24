@@ -9,7 +9,7 @@ export default function About() {
       </div>
       <div className="about_main">
         <div className="about_img">
-          <img src={AboutImage} />
+          <img src={AboutImage} alt="Cookie Avelã Nuclear. Um dos mais pedidos!"/>
         </div>
         <div className="about_text">
           <p>
@@ -28,7 +28,7 @@ export default function About() {
           </p>
           <p>
             Te convidamos a nos conhecer e dar uma chance para que nosso lema
-            entre pelos seus ouvidos, nossas delícias transformem seu paladar e
+            entre pelos teus ouvidos, nossas delícias transformem seu paladar e
             te façam querer ainda mais!
           </p>
           <p>Ah, o nosso lema?!</p>

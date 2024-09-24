@@ -14,7 +14,7 @@ export default function Header() {
   return (
     <section id="header" className="header_container">
       <div className="header_menu">
-        <img className="header_logo" src={Logo} />
+        <img className="header_logo" src={Logo} alt="Logomarca da loja."/>
 
         <a href="#header">
           <div className="header_background_menu_item">Início</div>
@@ -40,6 +40,7 @@ export default function Header() {
         <div className="header_menu_burguer">
           <img
             src={MenuBurguer}
+            alt="Menu de navegação do dispositivo móvel."
             onClick={() => setMenuBurguerClicked(!menuBurguerClicked)}
           ></img>
 
@@ -77,14 +78,14 @@ export default function Header() {
             className="header_background_socials"
             target="blank"
           >
-            <img src={Instagram} />
+            <img src={Instagram} alt="Acessar o Instagram da loja."/>
           </a>
           <a
             href="https://api.whatsapp.com/send/?phone=%2B5585994015585&text&type=phone_number&app_absent=0"
             className="header_background_socials"
             target="blank"
           >
-            <img src={Whatsapp} />
+            <img src={Whatsapp} alt="Entrar em contato com a loja por Whatsapp."/>
           </a>
         </div>
       </div>

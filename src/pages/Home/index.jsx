@@ -1,4 +1,4 @@
-import HomeImage from "../../assets/images/home_image.png";
+import HomeImage from "../../assets/images/cakes/carrot_cake.png";
 import "./index.scss";
 
 export default function Home() {
@@ -12,13 +12,12 @@ export default function Home() {
           href="https://api.whatsapp.com/send/?phone=%2B5585994015585&text&type=phone_number&app_absent=0"
           target="_blank"
         >
-          {/* <img className="cookie_button" src="./src/assets/icons/cookie_button.svg"></img> */}
           <div className="home_cookie"></div>
           <span>Peça agora!</span>
         </a>
       </div>
       <div className="intro_home_image">
-        <img src={HomeImage}></img>
+        <img src={HomeImage} alt="Bolo de cenoura com chocolate."></img>
       </div>
     </section>
   );

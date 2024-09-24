@@ -8,7 +8,7 @@ export default function Footer() {
   return (
     <section id="footer" className="footer_container">
       <div className="footer_infos">
-        <img className="footer_logo" src={Logo} />
+        <img className="footer_logo" src={Logo} alt="Logomarca da loja."/>
         <div className="footer_menu">
           <a href="#header">
             <div className="background_menu_item">Início</div>
@@ -36,14 +36,14 @@ export default function Footer() {
             className="background_socials"
             target="blank"
           >
-            <img src={Instagram} />
+            <img src={Instagram} alt="Acessar o instagram da loja."/>
           </a>
           <a
             href="https://api.whatsapp.com/send/?phone=%2B5585994015585&text&type=phone_number&app_absent=0"
             className="background_socials"
             target="blank"
           >
-            <img src={Whatsapp} />
+            <img src={Whatsapp} alt="Entrar em contato com a loja por Whatsapp."/>
           </a>
         </div>
       </div>

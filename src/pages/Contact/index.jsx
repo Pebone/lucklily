@@ -16,17 +16,17 @@ export default function Contact() {
 
       <div className="contact_info">
         <div className="contact_item">
-          <img src={Phone} />
+          <img src={Phone} alt="Telefone para contato por Whatsapp."/>
           <p>(85) 9 9401-5051</p>
         </div>
         <div className="contact_item">
-          <img src={Mail} />
+          <img src={Mail} alt="Email para contato com a loja."/>
           <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSKkVJxgNwMbhzfwdHXQtFCWCSLNDCzLSbWNnQkpBqmhbvxQklwSphrmQdDHKgkqrMWVsZsx">
             lucklilydoces@gmail.com
           </a>
         </div>
         <div className="contact_item">
-          <img src={Clock} />
+          <img src={Clock} alt="Horário de funcionamento"/>
           <div>
             <p>Segunda a sexta: 10h às 18h</p>
             <p>Sábado: 10h às 15h</p>

@@ -18,13 +18,13 @@
   h1 {
     font-size: var(--fs-32);
     font-weight: bold;
-    animation: slideInFadeText 2s ease forwards; /* Animação de slide e fade */
+    animation: slideInFadeText 2s ease forwards;
   }
 
   h2 {
     font-size: var(--fs-16);
     font-weight: bold;
-    animation: slideInFadeSubText 2s ease forwards; /* Animação de slide e fade */
+    animation: slideInFadeSubText 2s ease forwards;
   }
 }
 
@@ -43,7 +43,7 @@
   gap: 1rem;
   border: none;
   outline: 0;
-  animation: slideInFadeSubText 2s ease forwards; /* Animação de slide e fade */
+  animation: slideInFadeSubText 2s ease forwards;
 
   box-shadow: 2px 2px 10px #00000075;
   cursor: pointer;
@@ -78,7 +78,7 @@
     border-radius: 50px 50px 50px 50px;
     box-shadow: 2px 2px 10px #00000075;
     opacity: 0;
-    animation: slideInFade 2s ease forwards; /* Animação de slide e fade */
+    animation: slideInFade 2s ease forwards;
   }
 }
 
@@ -131,9 +131,7 @@
 }
 
 @media (width < 48em) {
-  .home_container {
-    // margin-top: 3rem;
-  }
+
   .intro_home {
     color: var(--branco);
     width: 100%;
@@ -148,13 +146,13 @@
     h1 {
       font-size: var(--fs-24);
       font-weight: bold;
-      animation: slideInFadeText 2s ease forwards; /* Animação de slide e fade */
+      animation: slideInFadeText 2s ease forwards;
     }
 
     h2 {
       font-size: var(--fs-16);
       font-weight: bold;
-      animation: slideInFadeSubText 2s ease forwards; /* Animação de slide e fade */
+      animation: slideInFadeSubText 2s ease forwards;
     }
   }
 
@@ -164,9 +162,6 @@
 }
 
 @media (width < 80em) {
-  .home_container {
-    // margin-top: 3rem;
-  }
   .intro_home {
     color: var(--branco);
     width: 100%;
@@ -181,13 +176,13 @@
     h1 {
       font-size: var(--fs-24);
       font-weight: bold;
-      animation: slideInFadeText 2s ease forwards; /* Animação de slide e fade */
+      animation: slideInFadeText 2s ease forwards;
     }
 
     h2 {
       font-size: var(--fs-16);
       font-weight: bold;
-      animation: slideInFadeSubText 2s ease forwards; /* Animação de slide e fade */
+      animation: slideInFadeSubText 2s ease forwards;
     }
   }
 

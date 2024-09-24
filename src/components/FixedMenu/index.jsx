@@ -14,7 +14,7 @@ export function FixedMenu() {
         <div>
           <p>Cardápio</p>
         </div>
-        <img src={Menu}></img>
+        <img src={Menu} alt="Acessar o cardápio."></img>
       </a>
       <a
         href="https://www.instagram.com/lucklilydoces"
@@ -24,7 +24,7 @@ export function FixedMenu() {
         <div>
           <p>Instagram</p>
         </div>
-        <img src={Instagram}></img>
+        <img src={Instagram} alt="Acessar o instagram da loja."></img>
       </a>
       <a
         href="https://api.whatsapp.com/send/?phone=%2B5585994015585&text&type=phone_number&app_absent=0"
@@ -34,7 +34,7 @@ export function FixedMenu() {
         <div>
           <p>Whatsapp</p>
         </div>
-        <img src={Whatsapp}></img>
+        <img src={Whatsapp} alt="Entrar em contato com a loja por Whatsapp."></img>
       </a>
     </section>
   );

@@ -15,13 +15,13 @@ export default function Gallery() {
         </div>
         <div className="gallery_groups">
           <div className="gallery_group_1">
-            <img src={LuckLily}></img>
-            <img src={CookiesBox}></img>
-            <img src={Cookie}></img>
+            <img src={LuckLily} alt="Cookie Lucklily."></img>
+            <img src={CookiesBox} alt="Caixa de cookies."></img>
+            <img src={Cookie} alt="Cookie em uma espátula."></img>
           </div>
           <div className="gallery_group_2">
-            <img src={CarrotCake}></img>
-            <img src={CarrotCake2}></img>
+            <img src={CarrotCake} alt="Bolo de cenoura com chocolate."></img>
+            <img src={CarrotCake2} alt="Bolo de cenouro com cobertura de chocolate."></img>
           </div>
         </div>
       </section>

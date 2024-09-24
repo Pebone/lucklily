@@ -152,7 +152,6 @@
   .header_menu_burguer {
     display: block;
     line-height: 0;
-    // margin: 0 0 0.5rem 0;
 
     img {
       width: 30px;
@@ -191,34 +190,6 @@
       }
     }
   }
-
-  // .header_menu {
-  //   display: flex;
-  //   justify-content: center;
-  //   align-items: flex-start;
-  //   gap: 3rem;
-  //   // background: var(--branco);
-
-  //   img {
-  //     animation: none;
-  //   }
-
-  //   a:nth-child(2) {
-  //     animation: none;
-  //   }
-  //   a:nth-child(3) {
-  //     animation: none;
-  //   }
-  //   a:nth-child(4) {
-  //     animation: none;
-  //   }
-  //   a:nth-child(5) {
-  //     animation: none;
-  //   }
-  //   a:nth-child(6) {
-  //     animation: none;
-  //   }
-  // }
 
   .header_background_menu_item {
     background: transparent;

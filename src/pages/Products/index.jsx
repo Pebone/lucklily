@@ -23,6 +23,8 @@ export default function Products() {
             type="cookie"
             info="Massa especial da casa e gotas de chocolate!"
             price="R$ 7,00"
+            alt="Cookie Lucklily."
+            typeAlt="Cookie."
           ></Card>
 
           <Card
@@ -32,6 +34,8 @@ export default function Products() {
             type="cookie"
             info="Massa especial da casa e creme de avelã!"
             price="R$ 7,00"
+            alt="Cookie Avelã Nuclear."
+            typeAlt="Cookie."
           ></Card>
 
           <Card
@@ -40,8 +44,10 @@ export default function Products() {
             ingredients={["milk", "wheat", "egg"]}
             type="cookie"
             info="Diferencial da casa. Cookie com massa feita de café para
-você provar e amar, escolha o recheio!"
+            você provar e amar, escolha o recheio!"
             price="R$ 7,00"
+            alt="Cookie Cafézin."
+            typeAlt="Cookie."
           ></Card>
 
           <Card
@@ -50,8 +56,10 @@ você provar e amar, escolha o recheio!"
             ingredients={["milk", "wheat", "egg"]}
             type="cake"
             info="Bolo de cenoura dos deuses, feito com toda a
-malemolência da cozinha da Luck Lily. Isso daqui é divino!"
+            malemolência da cozinha da Luck Lily. Isso daqui é divino!"
             price="(M) R$ 27,50"
+            alt="Bolo de Cenoura com chocolate."
+            typeAlt="Bolo."
           ></Card>
 
           <Card
@@ -60,8 +68,10 @@ malemolência da cozinha da Luck Lily. Isso daqui é divino!"
             ingredients={["milk", "wheat", "egg"]}
             type="cake"
             info="Cremosidade e massa fofinha de um jeito que você nunca pensou
-que iria precisar provar. Esse bolo é um papoco pro paladar!"
+            que iria precisar provar. Esse bolo é um papoco pro paladar!"
             price="(M) R$ 30,00"
+            alt="Bolo de Ovomaltine."
+            typeAlt="Bolo."
           ></Card>
 
           <Card
@@ -70,9 +80,11 @@ que iria precisar provar. Esse bolo é um papoco pro paladar!"
             ingredients={["wheat", "egg"]}
             type="cake"
             info="Bolo de banana (SEM LACTOSE) com canela feito com a receita secreta
-da família. Uma delícia, você tem que provar! ATENÇÃO: CONTÉM
-CANELA!"
+            da família. Uma delícia, você tem que provar! ATENÇÃO: CONTÉM
+            CANELA!"
             price="(M) R$ 22,50"
+            alt="Bolo de Banana."
+            typeAlt="Bolo."
           ></Card>
         </div>
         <div className="products_button_menu">
