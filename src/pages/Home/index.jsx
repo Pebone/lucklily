@@ -17,7 +17,7 @@ export default function Home() {
         </a>
       </div>
 
-      <img className="intro_home_image" src={HomeImage} alt="Bolo de cenoura com chocolate."></img>
+      <img className="intro_home_image" src={HomeImage} alt="Avatar principal"></img>
     </section>
   );
 }
