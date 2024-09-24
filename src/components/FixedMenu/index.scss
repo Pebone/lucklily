@@ -59,16 +59,3 @@
     transform: translateY(0px);
   }
 }
-
-@media (width <= 64em) {
-  .fixed_menu_container {
-    &:focus-within {
-      width: 180px;
-    }
-  }
-
-  .fixed_menu_container:focus-within .fixed_menu div {
-    opacity: 1;
-    width: fit-content;
-  }
-}
