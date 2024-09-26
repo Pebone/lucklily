@@ -11,9 +11,6 @@ export function FixedMenu() {
         target="blank"
         className="fixed_menu"
       >
-        <div>
-          <p>Cardápio</p>
-        </div>
         <img src={Menu} alt="Acessar o cardápio."></img>
       </a>
       <a
@@ -21,9 +18,6 @@ export function FixedMenu() {
         target="blank"
         className="fixed_menu"
       >
-        <div>
-          <p>Instagram</p>
-        </div>
         <img src={Instagram} alt="Acessar o instagram da loja."></img>
       </a>
       <a
@@ -31,10 +25,10 @@ export function FixedMenu() {
         target="blank"
         className="fixed_menu"
       >
-        <div>
-          <p>Whatsapp</p>
-        </div>
-        <img src={Whatsapp} alt="Entrar em contato com a loja por Whatsapp."></img>
+        <img
+          src={Whatsapp}
+          alt="Entrar em contato com a loja por Whatsapp."
+        ></img>
       </a>
     </section>
   );

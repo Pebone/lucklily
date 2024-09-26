@@ -1,8 +1,8 @@
 import LuckLily from "../../assets/images/cookies/lucklily.png";
 import CookiesBox from "../../assets/images/cookies/cookies_box.png";
 import Cookie from "../../assets/images/cookies/cookie.png";
-import CarrotCake from "../../assets/images/cakes/carrot_cake.png";
-import CarrotCake2 from "../../assets/images/cakes/carrot_cake_3.png";
+import CarrotCake from "../../assets/images/carrot_cake.png";
+import CarrotCake2 from "../../assets/images/carrot_cake_3.png";
 
 import "./index.scss";
 

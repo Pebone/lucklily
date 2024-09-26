@@ -14,7 +14,7 @@
   animation: slideUp 2s ease;
 
   &:hover {
-    width: 180px;
+    // width: 180px;
   }
 
   a {
@@ -28,7 +28,7 @@
 
 .fixed_menu {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   transition: all 0.5s ease;
 }
