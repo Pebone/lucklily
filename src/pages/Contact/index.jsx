@@ -1,7 +1,4 @@
 import React from "react";
-import Logo from "../../assets/images/logo.png";
-import Instagram from "../../assets/icons/instagram.svg";
-import Whatsapp from "../../assets/icons/whatsapp.svg";
 import Phone from "../../assets/icons/phone.svg";
 import Mail from "../../assets/icons/mail.svg";
 import Clock from "../../assets/icons/clock.svg";

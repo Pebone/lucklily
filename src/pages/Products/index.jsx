@@ -1,10 +1,10 @@
 import Card from "../../components/Card";
-import LuckLily from "../../assets/images/cookies/lucklily.png";
-import Cafezin from "../../assets/images/cookies/cafezin2.png";
-import Avela from "../../assets/images/cookies/avela.png";
-import BananaCake from "../../assets/images/cakes/banana_cake.png";
-import CarrotCake from "../../assets/images/cakes/carrot_cake_3.png";
-import OvomaltineCake from "../../assets/images/cakes/ovomaltine_cake.png";
+import LuckLily from "../../assets/images/cookies/lucklily.webp";
+import Cafezin from "../../assets/images/cookies/cafezin2.webp";
+import Avela from "../../assets/images/cookies/avela.webp";
+import BananaCake from "../../assets/images/cakes/banana_cake.webp";
+import CarrotCake from "../../assets/images/cakes/carrot_cake_3.webp";
+import OvomaltineCake from "../../assets/images/cakes/ovomaltine_cake.webp";
 import "./index.scss";
 
 export default function Products() {

@@ -1,10 +1,7 @@
-import Logo from "../../assets/images/logo.png";
+import Logo from "../../assets/images/logo.webp";
 import Instagram from "../../assets/icons/instagram.svg";
 import Whatsapp from "../../assets/icons/whatsapp.svg";
 import MenuBurguer from "../../assets/icons/burguer.svg";
-import House from "../../assets/icons/house.svg";
-import Gallery from "../../assets/icons/gallery.svg";
-import Cookie from "../../assets/icons/cookie_font.svg";
 import "./index.scss";
 import { useState } from "react";
 

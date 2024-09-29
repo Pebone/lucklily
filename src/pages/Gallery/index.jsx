@@ -1,8 +1,8 @@
-import LuckLily from "../../assets/images/cookies/lucklily.png";
-import CookiesBox from "../../assets/images/cookies/cookies_box.png";
-import Cookie from "../../assets/images/cookies/cookie.png";
-import CarrotCake from "../../assets/images/carrot_cake.png";
-import CarrotCake2 from "../../assets/images/carrot_cake_3.png";
+import LuckLily from "../../assets/images/cookies/lucklily.webp";
+import CookiesBox from "../../assets/images/cookies/cookies_box.webp";
+import Cookie from "../../assets/images/cookies/cookie.webp";
+import CarrotCake from "../../assets/images/carrot_cake.webp";
+import CarrotCake2 from "../../assets/images/carrot_cake_3.webp";
 
 import "./index.scss";
 
@@ -21,7 +21,10 @@ export default function Gallery() {
           </div>
           <div className="gallery_group_2">
             <img src={CarrotCake} alt="Bolo de cenoura com chocolate."></img>
-            <img src={CarrotCake2} alt="Bolo de cenouro com cobertura de chocolate."></img>
+            <img
+              src={CarrotCake2}
+              alt="Bolo de cenouro com cobertura de chocolate."
+            ></img>
           </div>
         </div>
       </section>

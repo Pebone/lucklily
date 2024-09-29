@@ -1,4 +1,4 @@
-import AboutImage from "../../assets/images/about_img.png"
+import AboutImage from "../../assets/images/about_img.webp"
 import "./index.scss";
 
 export default function About() {

@@ -1,4 +1,4 @@
-import HomeImage from "../../assets/images/Lily_left.png";
+import HomeImage from "../../assets/images/Lily_left.webp";
 import "./index.scss";
 
 export default function Home() {
@@ -10,7 +10,7 @@ export default function Home() {
         <a
           className="intro_home_button"
           href="https://api.whatsapp.com/send/?phone=%2B5585994015585&text&type=phone_number&app_absent=0"
-          target="_blank"
+          target="blank"
         >
           <div className="home_cookie"></div>
           <span>Peça agora!</span>

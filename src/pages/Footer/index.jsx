@@ -1,4 +1,4 @@
-import Logo from "../../assets/images/logo.png";
+import Logo from "../../assets/images/logo.webp";
 import Instagram from "../../assets/icons/instagram.svg";
 import Whatsapp from "../../assets/icons/whatsapp.svg";
 
